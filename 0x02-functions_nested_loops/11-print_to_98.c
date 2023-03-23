@@ -17,9 +17,10 @@ for (i = n; i <= 98; i++)
 if (i != 98)
 printf("%d, ", i);
 else if (i == 98)
+{
 printf("%dn", i);
 }
-} else if (n >= 98)
+else if (n >= 98)
 {
 for (j = n; j >= 98; j--)
 {
